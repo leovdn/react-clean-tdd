@@ -22,7 +22,7 @@ const makeSut = (url: string = mockUrl): SutTypes => {
 describe('RemoteAuthentication', () => {
   test('should call httpPostClient with correct url', async () => {
     const url = mockUrl
-    const { sut, httpPostClientSpy } = makeSut()
+    const { sut, httpPostClientSpy } = makeSut(url)
 
     await sut.auth()
 
