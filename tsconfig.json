@@ -11,6 +11,10 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "noImplicitAny": true,
     "noImplicitThis": true,
     "plugins": [
