@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
     "allowJs": false,
-    "allowSyntheticDefaultImports": true,
+    // "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    // "forceConsistentCasingInFileNames": true,
     "isolatedModules": false,
     "jsx": "react",
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
+    // "noEmit": true,
     "baseUrl": "src",
     "paths": {
       "@/*": ["*"]
@@ -24,7 +24,7 @@
       }
     ],
     "resolveJsonModule": true,
-    "skipLibCheck": true,
+    // "skipLibCheck": true,
     "strict": false,
     "target": "ES2018"
   },
